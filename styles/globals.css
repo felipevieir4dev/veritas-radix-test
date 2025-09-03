@@ -43,7 +43,24 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  /* Paleta Simplificada Renascentista */
+  /* Tema Pergaminho Antigo - Veritas Radix */
+  --background: #f7f3e9; /* Pergaminho claro */
+  --foreground: #8b0000; /* Vermelho profundo */
+  --card: #f4f1e8; /* Pergaminho aged */
+  --card-foreground: #8b0000;
+  --primary: #8b0000; /* Vermelho profundo */
+  --primary-foreground: #f7f3e9;
+  --secondary: #b8860b; /* Dourado */
+  --secondary-foreground: #8b0000;
+  --muted: #e8dcc6;
+  --muted-foreground: #704214;
+  --accent: #daa520; /* Dourado claro */
+  --accent-foreground: #8b0000;
+  --border: #b8860b;
+  --input: #f4f1e8;
+  --ring: #8b0000;
+  
+  /* Cores específicas do tema */
   --parchment: #f7f3e9;
   --parchment-dark: #f0e6d2;
   --parchment-aged: #e8dcc6;
@@ -56,6 +73,9 @@
   --aged-paper: #f4f1e8;
   --ink-brown: #3c2415;
   --faded-black: #2c2c2c;
+  --gold: #b8860b;
+  --gold-light: #daa520;
+  --gold-dark: #8b6914;
 }
 
 /* Tamanhos de fonte responsivos */
