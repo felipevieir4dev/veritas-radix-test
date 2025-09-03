@@ -58,3 +58,4 @@ drf-yasg==1.21.7
 
 # Deployment
 python-decouple==3.8
+setuptools==69.0.0
