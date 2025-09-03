@@ -16,12 +16,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     # Health check
+    path('', HealthCheckView.as_view(), name='home'),
     path('health/', HealthCheckView.as_view(), name='health-check'),
     
     # API routes
     path('api/', include([
         path('auth/', include('apps.authentication.urls')),
-        path('etymology/', include('apps.etymology.urls')),
         path('', include(router.urls)),
     ])),
     
