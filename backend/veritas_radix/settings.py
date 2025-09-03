@@ -19,12 +19,9 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     '0.0.0.0',
-    '.vercel.app',
-    '.herokuapp.com',
     '.onrender.com',
-    '.railway.app',
-    'veritas-radix-backend.onrender.com',
-    'veritas-radix-backend-production.up.railway.app',
+    '.pages.dev',
+    '.vercel.app',
     os.environ.get('ALLOWED_HOST', ''),
 ]
 
@@ -198,9 +195,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",
+    "https://veritas-radix-test.pages.dev",
     "https://veritas-radix.pages.dev",
-    "https://veritas-radix.vercel.app",
-    "https://veritas-radix-frontend.vercel.app",
 ]
 
 # Para desenvolvimento, pode permitir todas as origens
