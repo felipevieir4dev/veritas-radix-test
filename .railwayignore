@@ -1,0 +1,11 @@
+package.json
+package-lock.json
+node_modules/
+components/
+styles/
+public/
+index.html
+vite.config.ts
+tsconfig.json
+wrangler.toml
+.env.example
