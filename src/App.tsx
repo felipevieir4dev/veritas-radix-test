@@ -69,7 +69,21 @@ export default function App() {
 
   return (
     <GamificationProvider>
-      <div className="min-h-screen parchment-bg">
+      <div 
+        className="min-h-screen" 
+        style={{
+          fontFamily: 'EB Garamond, serif',
+          backgroundColor: '#f7f3e9',
+          backgroundImage: `
+            radial-gradient(circle at 20% 30%, rgba(139, 0, 0, 0.03) 1px, transparent 1px),
+            radial-gradient(circle at 80% 70%, rgba(184, 134, 11, 0.04) 1px, transparent 1px),
+            radial-gradient(ellipse at 60% 20%, rgba(139, 0, 0, 0.05) 0%, transparent 40%),
+            linear-gradient(135deg, rgba(139, 0, 0, 0.02) 0%, transparent 100%)
+          `,
+          backgroundSize: '200px 200px, 180px 180px, 400px 300px, 100% 100%',
+          color: '#8b0000'
+        }}
+      >
         {isLoggedIn && (
           <HeaderWithGamification 
             userType={userType}
@@ -87,5 +101,5 @@ export default function App() {
         )}
       </div>
     </GamificationProvider>
-  );
+  );}
 }
